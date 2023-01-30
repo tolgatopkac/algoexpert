@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+    form {
+      background-color: azure;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      justify-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="">
+    <!-- USERNAME -->
+    <label for="username">Username:</label>
+    <input name="username" id="username" type="text" required placeholder="Username">
+    <!-- PASSWORD -->
+    <label for="password">Password:</label>
+    <input name="password" id="password" type="password" required placeholder="Password">
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input name="email" id="email" type="email" required placeholder="Email">
+    <!-- Phone -->
+    <label for="phone">Phone Number:</label>
+    <input name="phone" id="phone" type="tel" placeholder="Phone">
+    <!-- DOB -->
+    <label for="birth">Date of Birth:</label>
+    <input name="birth" id="birth" type="date" placeholder="date of birth">
+    <!-- TOS -->
+    <div>
+      <label for="tos">I agree to the TOS</label>
+      <input name="tos" id="tos" type="checkbox" required>
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+
+</html>
